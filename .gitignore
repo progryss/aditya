@@ -1,0 +1,36 @@
+# ------------------------------------
+# 🧱 WordPress GitIgnore (Kinsta-Optimized)
+# ------------------------------------
+
+# Ignore everything by default
+/*
+
+# ✅ Allow wp-content and its subfolders
+!/wp-content/plugins/
+!/wp-content/themes/storefront-child/
+!/wp-content/mu-plugins/
+
+# ------------------------------------
+# 🧹 Common Files to Ignore
+# ------------------------------------
+.DS_Store
+.idea/
+.vscode/
+*.log
+*.sql
+*.sqlite
+*.zip
+*.tar
+*.gz
+*.bak
+*.tmp
+*.swp
+*.swo
+*.orig
+.htaccess
+wp-config.php
+
+# ------------------------------------
+# ✅ Include the .gitignore itself
+# ------------------------------------
+!.gitignore
